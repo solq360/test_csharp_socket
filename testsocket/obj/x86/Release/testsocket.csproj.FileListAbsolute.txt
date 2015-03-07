@@ -1,0 +1,1 @@
+D:\testcsharpsocket\testsocket\testsocket\obj\x86\Release\ResolveAssemblyReference.cache

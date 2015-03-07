@@ -1,0 +1,5 @@
+D:\testcsharpsocket\testsocket\testsocket\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\testcsharpsocket\testsocket\testsocket\bin\Debug\testsocket.exe
+D:\testcsharpsocket\testsocket\testsocket\bin\Debug\testsocket.pdb
+D:\testcsharpsocket\testsocket\testsocket\obj\x86\Debug\testsocket.exe
+D:\testcsharpsocket\testsocket\testsocket\obj\x86\Debug\testsocket.pdb

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="testsocket\B.cs">
+    <Files>
+      <File FileName="testsocket\Main.cs" Line="13" Column="40" />
+      <File FileName="testsocket\eyu\netty\util\LoggerManager.cs" Line="16" Column="35" />
+      <File FileName="testsocket\eyu\netty\socket\impl\SocketClient.cs" Line="38" Column="100" />
+      <File FileName="testsocket\B.cs" Line="334" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

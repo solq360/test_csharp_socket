@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4FB4A56-4973-4D7E-A2FF-023BF17D3E90}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>testsocket</RootNamespace>
+    <AssemblyName>testsocket</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="eyu\netty\core\ByteBuffer.cs" />
+    <Compile Include="eyu\netty\channel\IChannel.cs" />
+    <Compile Include="eyu\netty\channel\IPipJoin.cs" />
+    <Compile Include="eyu\netty\config\IChannelConfig.cs" />
+    <Compile Include="eyu\netty\core\Protocol.cs" />
+    <Compile Include="eyu\netty\socket\IoSession.cs" />
+    <Compile Include="eyu\netty\test\TestSocketClient2.cs" />
+    <Compile Include="eyu\netty\test\TestByteBuff.cs" />
+    <Compile Include="eyu\netty\util\pool\IPoolElement.cs" />
+    <Compile Include="eyu\netty\socket\impl\SocketClient.cs" />
+    <Compile Include="eyu\netty\socket\ISocket.cs" />
+    <Compile Include="eyu\netty\socket\ISocketClient.cs" />
+    <Compile Include="eyu\netty\util\pool\SocketAsyncEventArgsMetadata.cs" />
+    <Compile Include="eyu\netty\util\pool\Pool.cs" />
+    <Compile Include="eyu\netty\util\pool\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="eyu\netty\socket\SocketConfig.cs" />
+    <Compile Include="eyu\netty\test\TestPool.cs" />
+    <Compile Include="eyu\netty\test\TestSocket2.cs" />
+    <Compile Include="eyu\netty\test\TestSocketClient.cs" />
+    <Compile Include="eyu\netty\util\logger\ILogger.cs" />
+    <Compile Include="eyu\netty\util\logger\LoggerManager.cs" />
+    <Compile Include="eyu\netty\util\logger\UnityLogger.cs" />
+    <Compile Include="eyu\netty\util\pool\IPool.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="A.cs" />
+    <Compile Include="B.cs" />
+    <Compile Include="Logger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="eyu\netty\anno\" />
+    <Folder Include="eyu\netty\event\" />
+    <Folder Include="eyu\netty\hanndle\" />
+    <Folder Include="eyu\netty\service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
